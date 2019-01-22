@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ec.edu.uce.vista.uce.vista.VehiculosActivity">
+
+    <item android:id="@+id/añadir"
+        android:title="IngresarDato"/>
+
+    <item android:id="@+id/editar"
+        android:title="EditarDato"/>
+
+    <item android:id="@+id/eliminar"
+        android:title="EliminarDato"/>
+
+    <item android:id="@+id/ajustes"
+        android:title="Ajustes"/>
+
+
+
+</menu>
