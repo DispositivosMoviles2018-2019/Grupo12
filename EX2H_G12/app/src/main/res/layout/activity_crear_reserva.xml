@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Crear Reserva"
+        android:textSize="40sp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Ingrese la placa"
+        android:textSize="20sp"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Placa"
+        android:inputType="text"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Numero de reserva"
+        android:textSize="20sp"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Numero"
+        android:inputType="number"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="IMEI"
+        android:textSize="20sp"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="IMEI"
+        android:inputType="number"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Número de celular"
+        android:textSize="20sp"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Número de celular"
+        android:inputType="number"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Fecha de préstamo"
+        android:textSize="20sp"
+        />
+    <LinearLayout
+        android:id="@+id/prestamo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/diaspres"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+           />
+
+        <Spinner
+            android:id="@+id/mesespres"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            />
+        <Spinner
+            android:id="@+id/añospres"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+           />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Fecha de Entrega"
+        android:textSize="20sp"
+        />
+    <LinearLayout
+        android:id="@+id/entrega"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/diasentr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            />
+
+        <Spinner
+            android:id="@+id/mesesentr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            />
+        <Spinner
+            android:id="@+id/añosentr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Valor de la reserva"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text=""
+        android:textSize="20sp"
+        />
+</LinearLayout>
